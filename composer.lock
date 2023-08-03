@@ -1,9 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
     ],
-    "hash": "c3ab4f1c5f1122d63827bddcb6b91986",
+    "content-hash": "cff52ceb1999e1fe94e820f09fdfc4e6",
     "packages": [
         {
             "name": "atukai/at-php-settings",
@@ -49,7 +50,7 @@
                 "php",
                 "zf2"
             ],
-            "time": "2014-01-15 21:38:22"
+            "time": "2014-01-15T21:38:22+00:00"
         },
         {
             "name": "bjyoungblood/bjy-authorize",
@@ -119,7 +120,7 @@
                 "zf2",
                 "zfc-user"
             ],
-            "time": "2014-04-03 17:12:07"
+            "time": "2014-04-03T17:12:07+00:00"
         },
         {
             "name": "dafap/dafap-layout",
@@ -155,7 +156,7 @@
                 "php",
                 "zf2"
             ],
-            "time": "2014-05-01 15:22:18"
+            "time": "2014-05-01T15:22:18+00:00"
         },
         {
             "name": "zendframework/zendframework",
@@ -273,28 +274,28 @@
                 "framework",
                 "zf2"
             ],
-            "time": "2014-04-15 14:47:18"
+            "time": "2014-04-15T14:47:18+00:00"
         },
         {
             "name": "zendframework/zendxml",
-            "version": "1.0.0",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/ZendXml.git",
-                "reference": "559b34f426d33a11c3db118e00ce14bb8dc64e5f"
+                "reference": "7b64507bc35d841c9c5802d67f6f87ef8e1a58c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/ZendXml/zipball/559b34f426d33a11c3db118e00ce14bb8dc64e5f",
-                "reference": "559b34f426d33a11c3db118e00ce14bb8dc64e5f",
+                "url": "https://api.github.com/repos/zendframework/ZendXml/zipball/7b64507bc35d841c9c5802d67f6f87ef8e1a58c9",
+                "reference": "7b64507bc35d841c9c5802d67f6f87ef8e1a58c9",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": "^5.3.3 || ^7.0"
             },
             "require-dev": {
-                "fabpot/php-cs-fixer": "*@dev",
-                "phpunit/phpunit": "~3.7"
+                "phpunit/phpunit": "^3.7 || ^4.0",
+                "squizlabs/php_codesniffer": "^1.5"
             },
             "type": "library",
             "extra": {
@@ -304,7 +305,7 @@
             },
             "autoload": {
                 "psr-0": {
-                    "ZendXml": "library/"
+                    "ZendXml\\": "library/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -318,7 +319,12 @@
                 "xml",
                 "zf2"
             ],
-            "time": "2014-03-05 22:25:44"
+            "support": {
+                "issues": "https://github.com/zendframework/ZendXml/issues",
+                "source": "https://github.com/zendframework/ZendXml/tree/master"
+            },
+            "abandoned": "laminas/laminas-xml",
+            "time": "2016-02-04T21:02:08+00:00"
         },
         {
             "name": "zf-commons/zfc-admin",
@@ -371,7 +377,7 @@
             "keywords": [
                 "zf2"
             ],
-            "time": "2014-04-15 07:08:25"
+            "time": "2014-04-15T07:08:25+00:00"
         },
         {
             "name": "zf-commons/zfc-base",
@@ -424,7 +430,7 @@
             "keywords": [
                 "zf2"
             ],
-            "time": "2013-05-02 12:33:49"
+            "time": "2013-05-02T12:33:49+00:00"
         },
         {
             "name": "zf-commons/zfc-user",
@@ -501,7 +507,7 @@
             "keywords": [
                 "zf2"
             ],
-            "time": "2014-04-23 21:29:54"
+            "time": "2014-04-23T21:29:54+00:00"
         }
     ],
     "packages-dev": [
@@ -552,7 +558,7 @@
                 "zdt",
                 "zf2"
             ],
-            "time": "2014-04-17 14:44:15"
+            "time": "2014-04-17T14:44:15+00:00"
         },
         {
             "name": "zendframework/zend-developer-tools",
@@ -613,7 +619,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2014-04-28 13:31:11"
+            "time": "2014-04-28T13:31:11+00:00"
         },
         {
             "name": "zendframework/zenddiagnostics",
@@ -672,7 +678,7 @@
                 "php",
                 "test"
             ],
-            "time": "2014-04-15 19:03:28"
+            "time": "2014-04-15T19:03:28+00:00"
         },
         {
             "name": "zendframework/zftool",
@@ -726,12 +732,10 @@
                 "tool",
                 "zf2"
             ],
-            "time": "2014-04-22 18:35:37"
+            "time": "2014-04-22T18:35:37+00:00"
         }
     ],
-    "aliases": [
-
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
         "dafap/dafap-layout": 20,
@@ -743,10 +747,11 @@
         "bjyoungblood/bjy-profiler": 20,
         "zendframework/zend-developer-tools": 20
     },
+    "prefer-stable": true,
+    "prefer-lowest": false,
     "platform": {
         "php": ">=5.3.3"
     },
-    "platform-dev": [
-
-    ]
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }
